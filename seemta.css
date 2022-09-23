@@ -16,3 +16,67 @@
     text-shadow: 10px 10px #444;
     margin: 0;
 }
+.igen{
+    padding: 5px;
+    float: left;
+    width: 480px;
+    height: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+    text-align: center;
+    
+}
+.igen p{
+    text-align: justify;
+    color:black;
+    font-size: large;
+    padding: 10px;
+}
+.szia{
+    padding: 5px;
+    float: left;
+    width: 480px;
+    height: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+    text-align: center;
+    
+}
+.szia p{
+    text-align: justify;
+    color:black;
+    font-size: large;
+    padding: 10px;
+}
+.ujitas{
+    padding: 5px;
+    float: left;
+    width: 480px;
+    height: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+    text-align: center;
+    
+}
+.ujitas p{
+    text-align: justify;
+    color:black;
+    font-size: large;
+    padding: 10px;
+}
+.premium{
+    padding: 5px;
+    float: left;
+    width: 460px;
+    height: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+    text-align: center;
+    
+}
+.premium p{
+    text-align: justify;
+    color:black;
+    font-size: large;
+    padding: 10px;
+}
