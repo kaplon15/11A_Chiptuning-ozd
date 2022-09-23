@@ -1,17 +1,17 @@
 #banner{
     background-color: lightblue;
     width: 100%;
-    height: 450px;
+    height: 500px;
     background: url('gtasa2.jfif');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position-y: 50px;
+    background-position-y: 70px;
 }
 #banner h1{
     text-align: center;
     color: aliceblue;
     font-size: 150px;
-    padding-top: 150px;
+    padding-top: 175px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-shadow: 10px 10px #444;
     margin: 0;
