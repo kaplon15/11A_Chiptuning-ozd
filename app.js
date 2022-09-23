@@ -1,28 +1,24 @@
-window.addEventListener("DOMContentLoaded", function () {
+function navSlide() {
+  const burger = document.querySelector(".burger");
+  const nav = document.querySelector(".nav-links");
+  const navLinks = document.querySelectorAll(".nav-links li");
+  
+  burger.addEventListener("click", () => {
 
-  
-    var form = document.getElementById("my-form");
+      nav.classList.toggle("nav-active");
+      
 
-    var status = document.getElementById("status");
-  
+      navLinks.forEach((link, index) => {
+          if (link.style.animation) {
+              link.style.animation = ""
+          } else {
+              link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.5}s`;
+          }
+      });
 
-  
-    function success() {
-      form.reset();
-      status.classList.add("success");
-      status.innerHTML = "Köszönjük a vissza jelzését.";
-    }
-  
-    function error() {
-      status.classList.add("error");
-      status.innerHTML = "Valami probléma csuszhatott a gépezetbe.";
-    }
-  
- 
-  
-    form.addEventListener("submit", function (ev) {
-      ev.preventDefault();
-      var data = new FormData(form);
-      ajax(form.method, form.action, data, success, error);
-    });
+      burger.classList.toggle("toggle");
   });
+  
+}
+
+navSlide();
