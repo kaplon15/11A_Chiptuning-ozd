@@ -96,3 +96,20 @@
     text-decoration: none;
     color: black;
 }
+#rolam{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(31, 31, 31);
+}
+#rolam h1{
+    color: azure;
+}
+.kep{
+    float: right;
+}
+.szoveg{
+    float: left;
+}
+.szoveg a{
+    
+}
