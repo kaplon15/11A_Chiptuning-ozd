@@ -109,7 +109,15 @@
 }
 .szoveg{
     float: left;
+
+}
+.szoveg{
+    color:beige;
 }
 .szoveg a{
-    
+    text-decoration: none;
+    color: black;
+}
+.clear{
+    clear: both;
 }
