@@ -90,8 +90,8 @@ body {
   
   .top-plane {
     position: absolute;
-    right: 300px;
-    top: 40px;
+    right: 20%;
+    top: 10%;
     width: 200px;
   }
   
